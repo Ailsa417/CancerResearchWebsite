@@ -1,0 +1,135 @@
+/* Reset sizes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Layout */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  border-radius: 8px;
+  padding: 50px 20px;
+  background: #4c5b7a;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #4c5b7a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+a:link, a:visited {
+  background-color: #607ddb;
+  color: white;
+  border-radius: 8px;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  transition: background 0.3s;
+}
+a:hover, a:active {
+  background-color: rgb(63, 96, 187);
+}
+
+.mission, .research, .findings {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mission p, .findings p {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.research-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.research-item {
+  background: #e4e4f7;
+  padding: 20px;
+  width: 45%;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form */
+.contact-form {
+  background: #e4e4f7;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #4c5b7a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #394264;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
